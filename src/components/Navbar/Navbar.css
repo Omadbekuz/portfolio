@@ -5,8 +5,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border-bottom: 1px solid aqua;
   padding: 0 2% 0 2%;
+  background: #1b1b1b;
+  border-radius: 0px 0px 25px 25px;
+}
+a {
+  color: #9c9c9c;
 }
 #left {
   width: 50%;
@@ -17,7 +21,6 @@
   flex-direction: row;
 }
 #left > a {
-  color: aqua;
   font-size: 32px;
   font-weight: 900;
   cursor: pointer;
@@ -31,7 +34,6 @@
   flex-direction: row;
 }
 #right > a {
-  color: aqua;
   font-size: 28px;
   font-weight: 700;
 }
