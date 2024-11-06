@@ -23,7 +23,7 @@
   font-weight: 900;
   font-size: 72px;
 }
-#Homeleft > p{
+#Homeleft > p {
   font-size: 20px;
   font-weight: 500;
 }
@@ -38,4 +38,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+#letsgoBtn {
+  width: 307px;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3f8e00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: #3f8e00;
 }

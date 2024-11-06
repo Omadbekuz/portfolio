@@ -10,7 +10,7 @@ export default function Home() {
           Alias beatae excepturi quas ipsum odio tempora in voluptas laboriosam,
           tenetur quidem dolore consequatur provident!
         </p>
-        <button>Let's gets started {">"}</button>
+        <button id="letsgoBtn">Let's gets started {">"}</button>
       </div>
       <div id="Homeright"></div>
     </div>
