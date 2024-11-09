@@ -38,6 +38,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
+  padding-bottom: 2%;
+}
+#Homeright > img {
+  width: 200%;
+  height: 130%;
 }
 #letsgoBtn {
   width: 307px;

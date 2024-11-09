@@ -1,0 +1,33 @@
+#Aboutme {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#mecard {
+  width: 892px;
+  height: 300px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  overflow: hidden;
+  text-align: start;
+  color: white;
+  margin: 5%;
+  color: #9c9c9c;
+}
+#mecard > div > h3 {
+  font-size: 26px;
+  color: white;
+}
+#mecard > div > p {
+  margin-top: 5%;
+}
+#mecard img {
+  width: 445px;
+  height: 300px;
+}

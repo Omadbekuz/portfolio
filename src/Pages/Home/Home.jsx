@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "./New Project.png";
 import "./Home.css";
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
         </p>
         <button id="letsgoBtn">Let's gets started {">"}</button>
       </div>
-      <div id="Homeright"></div>
+      <div id="Homeright">
+        <img src={ Image } alt="sdas" />
+      </div>
     </div>
   );
 }
