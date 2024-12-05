@@ -1,4 +1,4 @@
-#Aboutme {
+#Abutme {
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -6,28 +6,49 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: white;
+  gap: 5%;
 }
-#mecard {
-  width: 892px;
+
+#Card {
+  width: 900px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background: rgb(87, 86, 86);
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 1%;
+}
+#LinkBtn {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #3f8e00;
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+  color: #fff;
+  cursor: pointer;
+}
+#LinkBtn:hover {
+  background-color: #55a018;
+}
+#IconUO {
+  width: 500px;
   height: 300px;
   display: flex;
-  justify-content: start;
-  align-items: start;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   overflow: hidden;
-  text-align: start;
-  color: white;
-  margin: 5%;
-  color: #9c9c9c;
 }
-#mecard > div > h3 {
-  font-size: 26px;
-  color: white;
-}
-#mecard > div > p {
-  margin-top: 5%;
-}
-#mecard img {
-  width: 445px;
-  height: 300px;
+#IconUO > img {
+  width: 100%;
+  height: 100%;
 }

@@ -60,3 +60,18 @@
   cursor: pointer;
   box-shadow: #3f8e00;
 }
+@media (max-width: 1048px) {
+  #Home {
+    flex-direction: column-reverse;
+  }
+  #Homeleft {
+    width: 80%;
+    gap: 2%;
+  }
+  #letsgoBtn {
+    margin-top: 2%;
+  }
+  #Homeright{
+    height: auto;
+  }
+}

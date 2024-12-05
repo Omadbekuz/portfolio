@@ -1,46 +1,57 @@
 import React from "react";
-import img1 from "../Images/id1.png";
-import img2 from "../Images/id2.png";
-import img3 from "../Images/id3.png";
 import "./Aboutme.css";
+import Image from "../Home/New Project.png";
 
-export const Datame = [
+const data = [
   {
     id: 1,
-    workname: "Html&Css",
-    text: "Html&Css dasturlashdagi eng oson va birinchi organiladiga dasturlash tilidr, Men bu dasturlash tilini organganimda uncha qiynalmagan man va juda qiziqganim uchun tez ozlash tirib olganman",
-    btncolor: "orange",
-    img: img1,
+    name: "GitHub",
+    link: "https://github.com/Omadbekuz",
   },
 
   {
     id: 2,
-    workname: "Javascript",
-    text: "Dasturlashning bu bosqichi html&Css ga nisbatan qiyinroq va ancha boshni qotiradi, chunki javascriptda asosan funcksiyalar bilan ishlash orgatiladi.Men j=Javascriptni organishda qiynalganman ba 2marta oqishimga toig'ri kelgan, men bundan afsuslanmayman chunkijavascriptni yaxshilab organilmasa qolgan dasturlash tilini organgani ancha qiyin boladi.",
-    btncolor: "blue",
-    img: img2,
+    name: "Instagram",
+    link: "https://www.instagram.com/omadbek_live/",
   },
   {
     id: 3,
-    workname: "ReactJs",
-    text: "React JS — bu JavaScript kutubxonasi bo‘lib, foydalanuvchi interfeyslarini yaratishga mo‘ljallangan. Men oldingi dasturlash tillarani yaxshi organganim uchun bu dasturlash tilida uncha qi8ynalmaganman.Bu dasturlash tilida koplab dasturlar va ilovalarni jamoa bolib github orqali dasturlaganmiz",
-    btncolor: "green",
-    img: img3,
+    name: "Telegram",
+    link: "https://t.me/Omadbek_live",
+  },
+  {
+    id: 4,
+    name: "YouTube",
+    link: "https://www.youtube.com/@MONSTERYTPUBGM",
+  },
+  {
+    id: 5,
+    name: "Threads",
+    link: "https://www.threads.net/@omadbek_live",
   },
 ];
 
 export default function Aboutme() {
   return (
-    <div id="Aboutme">
-      {Datame.map((value, index) => (
-        <div id="mecard" key={value.id}>
-          <div>
-            <h3>{value.workname}</h3>
-            <p>{value.text}</p>
-          </div>
-          <img src={value.img} alt="pictur" />
+    <>
+      <div id="Abutme">
+        <div id="IconUO">
+          <img src={Image} alt="sdas" />
         </div>
-      ))}
-    </div>
+        {data.map((item) => {
+          return (
+            <div key={item.id} id="Card">
+              <h1>{item.name}</h1>
+              <button
+                id="LinkBtn"
+                onClick={() => window.open(item.link, "_blank")}
+              >
+                {"Kirish uchun bosing"}
+              </button>
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 }
