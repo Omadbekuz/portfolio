@@ -36,4 +36,50 @@ a {
 #right > a {
   font-size: 28px;
   font-weight: 700;
+  background-color: #55a018;
+  color: white;
+}
+/* Navbar uchun media query */
+
+/* Planshet (768px va kichikroq) */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 2%;
+  }
+  #left {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  #left > a {
+    font-size: 28px;
+  }
+  #right {
+    width: 100%;
+    justify-content: space-around;
+  }
+  #right > a {
+    font-size: 24px;
+  }
+}
+
+/* Mobil (480px va kichikroq) */
+@media (max-width: 480px) {
+  #navbar {
+    height: auto;
+    padding: 5px;
+  }
+  #left > a {
+    font-size: 24px;
+  }
+  #right > a {
+    font-size: 20px;
+  }
+  #right {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 }

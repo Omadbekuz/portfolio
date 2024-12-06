@@ -52,3 +52,51 @@
   width: 100%;
   height: 100%;
 }
+
+@media (max-width: 768px) {
+  #Abutme {
+    gap: 10%;
+    padding: 5%;
+  }
+
+  #Card {
+    width: 90%; /* Kenglikni moslashtirish */
+    flex-direction: column; /* Ichki tarkibni vertikal qilish */
+    height: auto;
+    padding: 5%; /* Ichki bo'shliq qo'shish */
+    text-align: center;
+  }
+
+  #LinkBtn {
+    padding: 3%; /* Tugmani kattalashtirish */
+  }
+
+  #IconUO {
+    width: 80%; /* Kichikroq ekranlarda rasmni moslashtirish */
+    height: auto;
+  }
+}
+
+/* Media query: Telefonlar (480px va kichikroq) */
+@media (max-width: 480px) {
+  #Abutme {
+    gap: 20%;
+    padding: 10%;
+  }
+
+  #Card {
+    width: 95%; /* Telefonlar uchun to'liq kenglik */
+    padding: 10%; /* Katta ichki bo'shliq */
+    text-align: center;
+  }
+
+  #LinkBtn {
+    font-size: 16px; /* Tugmadagi shriftni kichraytirish */
+    padding: 5%;
+  }
+
+  #IconUO {
+    width: 70%; /* Telefonlar uchun yanada kichraytirish */
+    height: auto;
+  }
+}
