@@ -1,0 +1,83 @@
+#Myprojects {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 5%;
+}
+#PortfolioCard {
+  width: 1200px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  color: white !important;
+  background: rgb(87, 86, 86);
+  margin-top: 10%;
+  border-radius: 25px;
+}
+#PortfolioCard > img {
+  width: 120px;
+  border-radius: 25px;
+}
+#LinkBtn2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #3f8e00;
+  border: none;
+  border-radius: 10px;
+  padding: 1%;
+  color: #fff;
+  cursor: pointer;
+}
+#LinkBtn2:hover {
+  background-color: #55a018;
+}
+
+@media (max-width: 1024px) {
+  #PortfolioCard {
+    width: 90%; /* Kartochka kengligi moslashtirildi */
+    height: auto; /* Balans avtomatik */
+    flex-direction: column; /* Elementlar vertikal joylashadi */
+    padding: 10px;
+    text-align: center;
+  }
+
+  #PortfolioCard > img {
+    width: 80px; /* Rasm hajmi kichraytirildi */
+    margin-bottom: 10px;
+  }
+
+  #LinkBtn2 {
+    padding: 5px 10px; /* Tugma hajmi kichraytirildi */
+  }
+}
+
+/* Telefonlar uchun (ekran kengligi: 768px dan kichik) */
+@media (max-width: 768px) {
+  #PortfolioCard {
+    width: 95%; /* Kartochka kengligi moslashtirildi */
+    margin-top: 20px; /* Yuqoridan masofa oshirildi */
+    flex-direction: column; /* Elementlar vertikal joylashadi */
+    text-align: center;
+  }
+
+  #PortfolioCard > img {
+    width: 60px; /* Rasm hajmi yana kichraytirildi */
+    margin-bottom: 10px;
+  }
+
+  #LinkBtn2 {
+    padding: 5px 8px; /* Tugma hajmi kichraytirildi */
+    font-size: 14px; /* Matn hajmi moslashtirildi */
+  }
+}
