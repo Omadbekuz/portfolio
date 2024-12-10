@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "./New Project.png";
 import "./Home.css";
+import VisitorCounter from "../../components/VisitorCounter";
+
 export default function Home() {
   return (
     <div id="Home">
@@ -12,9 +14,10 @@ export default function Home() {
           tenetur quidem dolore consequatur provident!
         </p>
         <button id="letsgoBtn">Let's gets started {">"}</button>
+        <VisitorCounter />
       </div>
       <div id="Homeright">
-        <img src={ Image } alt="sdas" />
+        <img src={Image} alt="sdas" />
       </div>
     </div>
   );
