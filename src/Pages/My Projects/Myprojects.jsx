@@ -1,13 +1,21 @@
 import React from "react";
 import "./Myprojects.css";
+import furnitureimg from "./Screenshot 2025-05-15 234554.png"
 
 const portfoliodata = [
   {
     id: 1,
     name: "Superhero",
-    tavsif: "O'z qahramoningiz haqida biliib oling😘",
+    tavsif: "Learn about your hero😘",
     img: "https://toping.uz/storage/articles_sm/5301/4EM5K1VMYl3bPUwJPEnUP6luCVtbX98n.webp",
     link: "https://superhero-uo.netlify.app/",
+  },
+   {
+    id: 2,
+    name: "furniture shop",
+    tavsif: "Furniture store 🛒",
+    img: furnitureimg,
+    link: "https://furniture-byuo.netlify.app/",
   },
 ];
 
@@ -26,7 +34,7 @@ export default function Myprojects() {
                 id="LinkBtn2"
                 onClick={() => window.open(item.link, "_blank")}
               >
-                Saytga kirish
+                Enter
               </button>
             </div>
           );
