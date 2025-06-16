@@ -1,7 +1,9 @@
 import React from "react";
 import "./Myprojects.css";
-import furnitureimg from "./Screenshot 2025-05-15 234554.png"
-
+import furnitureimg from "./Screenshot 2025-05-15 234554.png";
+import RonaldoImg from "./image.png";
+import HtmlRegister from "./image copy.png";
+import Promt from "./image copy 2.png";
 const portfoliodata = [
   {
     id: 1,
@@ -10,12 +12,33 @@ const portfoliodata = [
     img: "https://toping.uz/storage/articles_sm/5301/4EM5K1VMYl3bPUwJPEnUP6luCVtbX98n.webp",
     link: "https://superhero-uo.netlify.app/",
   },
-   {
+  {
     id: 2,
     name: "furniture shop",
     tavsif: "Furniture store 🛒",
     img: furnitureimg,
     link: "https://furniture-byuo.netlify.app/",
+  },
+  {
+    id: 3,
+    name: "Ronaldo web-site",
+    tavsif: "Ronaldoning web-saytti",
+    img: RonaldoImg,
+    link: "https://ronaldosite-byou.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "HTML REGISTER",
+    tavsif: "HTML registration form",
+    img: HtmlRegister,
+    link: "https://register-html.netlify.app/",
+  },
+  {
+    id: 5,
+    name: "REACT JS DESER AI PROMPT",
+    tavsif: "AI PROMPS",
+    img: Promt,
+    link: "https://deseraipromt-byuo.netlify.app/",
   },
 ];
 
